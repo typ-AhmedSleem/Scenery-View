@@ -1,0 +1,2 @@
+rootProject.name='SceneryView'
+include ':scenery'
