@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colors">
+        <item>@color/color_fajr_header</item>
+        <item>@color/color_dhuhr_sunrise_header</item>
+        <item>@color/color_dhuhr_sunrise_bg</item>
+        <item>@color/color_asr_bg</item>
+        <item>@color/color_maghrib_isha_header</item>
+        <item>@color/color_maghrib_isha_bg</item>
+    </array>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="color_asr_bg">#9F9FC1</color>
+    <color name="color_asr_header">#A9ABD2</color>
+    <color name="color_asr_highlight">#83797A</color>
+    <color name="color_dhuhr_sunrise_bg">#75A5E5</color>
+    <color name="color_dhuhr_sunrise_header">#90B7E2</color>
+    <color name="color_dhuhr_sunrise_highlight">#5A7797</color>
+    <color name="color_fajr_bg">#BB7F5D</color>
+    <color name="color_fajr_header">#6D5867</color>
+    <color name="color_fajr_highlight">#C29927</color>
+    <color name="color_maghrib_isha_bg">#2D3655</color>
+    <color name="color_maghrib_isha_header">#38446A</color>
+    <color name="color_maghrib_isha_highlight">#CA2424</color>
+    <color name="fajr_bg">#03A9F4</color>
+    <color name="isha_bg">#2D3655</color>
+    <color name="stars_bg">#E7C957</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">SceneryView</string>
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light"/>
+    <declare-styleable name="SceneryView">
+        <attr format="integer" name="svCloudsNumber"/>
+        <attr format="integer" name="svStarsNumber"/>
+        <attr format="reference" name="svColorsList"/>
+    </declare-styleable>
+</resources>

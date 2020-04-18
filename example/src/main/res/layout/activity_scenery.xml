@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.typ.scenaryview.SceneryView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scenery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/isha_bg"
+    app:svCloudsNumber="3"
+    app:svColorsList="@array/colors"
+    app:svStarsNumber="15"
+    tools:context=".example.MainActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/josefin_sans_light"
+        android:text="Fajr"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+</com.typ.scenaryview.SceneryView>

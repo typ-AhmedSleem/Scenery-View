@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.typ.scenery.example"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:4:5-19:19
+12        android:allowBackup="true"
+12-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:5:9-35
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:6:9-43
+15        android:label="@string/app_name"
+15-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:7:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:8:9-54
+17        android:theme="@style/AppTheme" >
+17-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:9:9-40
+18        <activity android:name="com.typ.scenery.example.MainActivity" >
+18-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:11:9-17:20
+18-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:11:19-55
+19            <intent-filter>
+19-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:12:13-16:29
+20                <action android:name="android.intent.action.MAIN" />
+20-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:13:17-69
+20-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:13:25-66
+21
+22                <category android:name="android.intent.category.LAUNCHER" />
+22-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:15:17-77
+22-->/home/ahmed/AndroidStudioProjects/SceneryView/app/src/main/AndroidManifest.xml:15:27-74
+23            </intent-filter>
+24        </activity>
+25    </application>
+26
+27</manifest>
