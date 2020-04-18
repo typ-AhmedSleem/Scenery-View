@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SceneryView">
+        <attr name="svCloudsNumber" format="integer" />
+        <attr name="svStarsNumber" format="integer" />
+        <attr name="svColorsList" format="reference" />
+    </declare-styleable>
+
+</resources>

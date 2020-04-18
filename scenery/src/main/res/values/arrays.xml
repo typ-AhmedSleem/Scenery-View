@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="colors">
+        <item>@color/color_fajr_header</item>
+        <item>@color/color_dhuhr_sunrise_header</item>
+        <item>@color/color_dhuhr_sunrise_bg</item>
+        <item>@color/color_asr_bg</item>
+        <item>@color/color_maghrib_isha_header</item>
+        <item>@color/color_maghrib_isha_bg</item>
+    </array>
+
+</resources>
